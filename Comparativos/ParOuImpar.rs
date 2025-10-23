@@ -11,11 +11,10 @@ fn main() {
 
     let n: i32 = entrada.trim().parse().expect("Digite um número válido");
 
-    for i in 1..=n {
-        if i % 2 == 0 {
-            println!("{} é par", i);
-        } else {
-            println!("{} é ímpar", i);
-        }
+
+    if n % 2 == 0 {
+        println!("{} é par", n);
+    } else {
+        println!("{} é ímpar", n);
     }
 }
