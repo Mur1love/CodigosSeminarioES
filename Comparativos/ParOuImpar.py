@@ -2,7 +2,7 @@
 
 n = int(input("Digite um número: "))
 
-if i % 2 == 0:
-    print(i, "é par")
+if n % 2 == 0:
+    print(n, "é par")
 else:
-    print(i, "é ímpar")
+    print(n, "é ímpar")
