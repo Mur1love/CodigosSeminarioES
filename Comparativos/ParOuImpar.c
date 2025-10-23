@@ -1,4 +1,3 @@
-// Mostrar números de 1 até N e indicar se são pares ou ímpares
 #include <stdio.h>
 
 int main() {
@@ -6,13 +5,10 @@ int main() {
     printf("Digite um número: ");
     scanf("%d", &n);
 
-    for (i = 1; i <= n; i++) {
-        if (i % 2 == 0) {
-            printf("%d é par\n", i);
-        } else {
-            printf("%d é ímpar\n", i);
-        }
+    if (n % 2 == 0) {
+        printf("%d é par\n", n);
+    } else {
+        printf("%d é ímpar\n", n);
     }
-
     return 0;
 }
